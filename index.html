@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isadora Machado</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="main.js"></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -20,18 +19,6 @@
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <!-- menu hamburguer para telas de tablets e dispositivos moveis -->
-        <!-- <nav class="menu_hamburguer">
-            <button class="hamburguer_icones"></button>
-            <ul class="menu_suspenso">
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav> -->
-        
     </header>
 
     <main>
@@ -156,16 +143,20 @@
                     <p class="contato_texto">Vamos trabalhar juntos?</p>
                     <p class="contato_texto">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
                     <input class="contato_conteudo" type="text" id="nome" placeholder="Escreva seu nome" required>
+                    <span class="erro" id="erro_nome"></span>
                     <input class="contato_conteudo" type="text" id="email" placeholder="Escreva seu email" required>
+                    <span class="erro" id="erro_email"></span>
                     <input class="contato_conteudo" type="text" id="assunto" placeholder="Assunto" required>
-
+                    <span class="erro" id="erro_assunto"></span>
                     <textarea class="contato_conteudo" id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui"></textarea>
-
+                    <span class="erro" id="erro_mensagem"></span>
                     <button class="contato_botao" type="submit" id="enviar">Enviar</button>
                 </form>
             </div>
         </section>
     </main>
+    <script defer src="main.js"></script>
+    <script src="validacao.js"></script>
 </body>
 <footer class="rodape">
    <p class="rodape_footer">Ui Design por <a href="https://linktr.ee/joaopedroai">João Pedro Ferreira</a></p>
