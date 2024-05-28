@@ -1,42 +1,67 @@
-const hamburger = document.querySelector(".hamburguer_icones");
-const nav = document.querySelector(".menu_hamburguer");
+document.addEventListener("DOMContentLoaded", () => {
+    // Função para adicionar animação ao rolar a página
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            } else {
+                entry.target.classList.remove('show');
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
 
-hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+    // Seleciona todas as seções que devem ter animação ao aparecer
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        observer.observe(section);
+    });
 
-document.getElementById("contato_formulario").addEventListener("submit", function(event) {
-    event.preventDefault(); 
+    // Lógica de envio do formulário com validação
+    document.getElementById("contato_formulario").addEventListener("submit", function(event) {
+        event.preventDefault(); 
 
-    // Obter os valores dos campos
-    var nome = document.getElementById("nome").value;
-    var email = document.getElementById("email").value;
-    var assunto = document.getElementById("assunto").value;
-    var mensagem = document.getElementById("mensagem").value;
+        // Obter os valores dos campos
+        var nome = document.getElementById("nome").value.trim();
+        var email = document.getElementById("email").value.trim();
+        var assunto = document.getElementById("assunto").value.trim();
+        var mensagem = document.getElementById("mensagem").value.trim();
 
-    // Criar um objeto com os dados do formulário
-    var formData = {
-        nome: nome,
-        email: email,
-        assunto: assunto,
-        mensagem: mensagem
-    };
+        // Validação básica dos campos
+        var valid = validateForm(nome, email, assunto, mensagem);
 
-    var enviadoComSucesso = true; 
+        if (!valid) {
+            return;
+        }
 
-    if (enviadoComSucesso) {
-        // Mensagem de enviado com sucesso
-        alert("Obrigado! Seu formulário foi enviado com sucesso.");
-    } else {
-        // Mensagem de erro ao enviar
-        alert("Ocorreu um erro ao enviar o formulário. Por favor, tente novamente mais tarde.");
-    };
+        // Criar um objeto com os dados do formulário
+        var formData = {
+            nome: nome,
+            email: email,
+            assunto: assunto,
+            mensagem: mensagem
+        };
 
-    // Armazenar o objeto em um array 
-    var formArray = [];
-    formArray.push(formData);
+        var enviadoComSucesso = true; // Simulação de envio bem-sucedido
 
-    // Exibir os dados no console
-    console.log(formArray);
+        if (enviadoComSucesso) {
+            // Mensagem de enviado com sucesso
+            alert("Obrigado! Seu formulário foi enviado com sucesso.");
+        } else {
+            // Mensagem de erro ao enviar
+            alert("Ocorreu um erro ao enviar o formulário. Por favor, tente novamente mais tarde.");
+        }
 
-    // Limpar os campos do formulário após o envio 
-    document.getElementById("contato_formulario").reset();
+        // Armazenar o objeto em um array 
+        var formArray = [];
+        formArray.push(formData);
+
+        // Exibir os dados no console
+        console.log(formArray);
+
+        // Limpar os campos do formulário após o envio 
+        document.getElementById("contato_formulario").reset();
+    });
 });
+
