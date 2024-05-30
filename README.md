@@ -48,5 +48,3 @@ Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade p
 Agradeço por visitar meu portfólio!
 
 ---
-
-Essa descrição oferece uma visão completa do projeto, desde as ferramentas e tecnologias utilizadas até a sua importância para sua carreira como desenvolvedora front-end. Ela deve ser colocada no arquivo README.md no repositório do seu projeto.
