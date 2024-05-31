@@ -1,4 +1,6 @@
-Portfólio de Isadora Machado
+Portfólio Isadora Machado
+
+---
 
 Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para apresentar minhas habilidades, formação e projetos como desenvolvedora front-end. A seguir, você encontrará detalhes sobre o desenvolvimento do site, as ferramentas e tecnologias utilizadas, e como este projeto contribui para minha carreira na área de desenvolvimento web.
 
@@ -45,6 +47,6 @@ Sinta-se à vontade para entrar em contato:
 
 Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para me enviar uma mensagem através do  LinkedIn (https://www.linkedin.com/in/isadora-machados/).
 
-Agradeço por visitar meu portfólio!
-
 ---
+
+Agradeço por visitar meu portfólio!
