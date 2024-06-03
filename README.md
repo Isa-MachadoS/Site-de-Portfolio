@@ -1,4 +1,4 @@
-##Portfólio Isadora Machado##
+***Portfólio Isadora Machado***
 
 ---
 
@@ -26,24 +26,24 @@ Este site foi criado com o objetivo de fornecer uma visão abrangente das minhas
 
 **Seções do Site:**
 
-1. Cabeçalho: Inclui o logo e o menu de navegação para as seções do site.
-2. Apresentação: Uma breve introdução sobre mim e links para minhas redes sociais.
-3. Skills: Apresentação das minhas habilidades técnicas com ícones representativos.
-4. Sobre Mim: Uma descrição detalhada sobre minha trajetória e interesses na área de desenvolvimento.
-5. Formação: Minhas certificações e cursos relevantes.
-6. Projetos: Descrição dos meus projetos mais significativos com links para visualização.
-7. Contato: Um formulário para que visitantes possam entrar em contato comigo.
+1. *Cabeçalho:* Inclui o logo e o menu de navegação para as seções do site.
+2. *Apresentação:* Uma breve introdução sobre mim e links para minhas redes sociais.
+3. *Skills:* Apresentação das minhas habilidades técnicas com ícones representativos.
+4. *Sobre Mim:* Uma descrição detalhada sobre minha trajetória e interesses na área de desenvolvimento.
+5. *Formação:* Minhas certificações e cursos relevantes.
+6. *Projetos:* Descrição dos meus projetos mais significativos com links para visualização.
+7. *Contato:* Um formulário para que visitantes possam entrar em contato comigo.
 
 **Influência na Carreira:**
 
 Desenvolver este portfólio foi um passo crucial na minha jornada como desenvolvedora front-end. Este projeto não só demonstra minhas habilidades técnicas, mas também mostra minha capacidade de criar um site funcional e esteticamente agradável desde o zero. A criação deste portfólio me permitiu:
 
-- Aplicar Conhecimentos: Colocar em prática o que aprendi em HTML, CSS, JavaScript e React.
-- Desenvolver Soft Skills: Aprimorar minhas habilidades de gerenciamento de projetos, design UX/UI e resolução de problemas.
-- Construir uma Presença Online: Ter um lugar centralizado onde posso direcionar potenciais empregadores e clientes para conhecer meu trabalho.
-- Aprender Continuamente: Identificar áreas onde posso melhorar e buscar novos conhecimentos e habilidades.
+- *Aplicar Conhecimentos:* Colocar em prática o que aprendi em HTML, CSS, JavaScript e React.
+- *Desenvolver Soft Skills:* Aprimorar minhas habilidades de gerenciamento de projetos, design UX/UI e resolução de problemas.
+- *Construir uma Presença Online:* Ter um lugar centralizado onde posso direcionar potenciais empregadores e clientes para conhecer meu trabalho.
+- *Aprender Continuamente:* Identificar áreas onde posso melhorar e buscar novos conhecimentos e habilidades.
 
-Sinta-se à vontade para entrar em contato:
+***Sinta-se à vontade para entrar em contato:***
 
 Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para me enviar uma mensagem através do  LinkedIn (https://www.linkedin.com/in/isadora-machados/).
 
