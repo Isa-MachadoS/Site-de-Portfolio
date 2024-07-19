@@ -1,4 +1,4 @@
-##Portfólio Isadora Machado
+***Portfólio Isadora Machado***
 
 ---
 ![Página Inicial](assets/Captura%20de%20tela%202024-07-19%20092852.png)
