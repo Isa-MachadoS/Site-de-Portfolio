@@ -1,7 +1,7 @@
-***Portfólio Isadora Machado***
+##Portfólio Isadora Machado
 
 ---
-![Página Inicial](assets/Captura de tela 2024-07-19 092852.png)
+![Página Inicial](assets/Captura%20de%20tela%202024-07-19%20092852.png)
 ---
 
 Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para apresentar minhas habilidades, formação e projetos como desenvolvedora front-end. A seguir, você encontrará detalhes sobre o desenvolvimento do site, as ferramentas e tecnologias utilizadas, e como este projeto contribui para minha carreira na área de desenvolvimento web.
