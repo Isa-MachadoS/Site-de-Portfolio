@@ -1,6 +1,8 @@
 ***Portfólio Isadora Machado***
 
 ---
+![Página Inicial](assests/Captura de tela 2024-07-19 092852.png)
+---
 
 Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para apresentar minhas habilidades, formação e projetos como desenvolvedora front-end. A seguir, você encontrará detalhes sobre o desenvolvimento do site, as ferramentas e tecnologias utilizadas, e como este projeto contribui para minha carreira na área de desenvolvimento web.
 
@@ -50,3 +52,14 @@ Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade p
 ---
 
 Agradeço por visitar meu portfólio!
+
+---
+## Licença
+
+Todos os direitos reservados. Este site e seu conteúdo, incluindo, mas não se limitando a, design, layout, textos, imagens, gráficos e informações, são protegidos por direitos autorais. Nenhuma parte deste site pode ser reproduzida, distribuída ou transmitida de qualquer forma ou por qualquer meio, incluindo fotocópia, gravação ou outros métodos eletrônicos ou mecânicos, sem a permissão prévia por escrito dos autores.
+
+O design do site foi criado por João Pedro da Costa Ferreira, desenvolvido por Isadora Machado e é protegido por direitos autorais. Permissões específicas, incluindo o uso comercial ou a criação de trabalhos derivados, devem ser solicitadas e concedidas por escrito pelos autores. Para consultas sobre permissão para uso, entre em contato com izzymachados@gmail.com.
+
+Isadora Machado
+2024
+
